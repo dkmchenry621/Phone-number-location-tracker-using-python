@@ -56,7 +56,7 @@ import folium
 
 
 key = "your key" #Geocoder API Key need to paste here "your key" 
-number = input("please giver your number: ")
+number = input("7862348545 ")
 new_number = phonenumbers.parse(number)
 location = geocoder.description_for_number(new_number, "en")
 print(location)
